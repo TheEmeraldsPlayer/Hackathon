@@ -74,5 +74,5 @@ def click(x,y):
     clicked = True
 def mainmenu():
     bg.clear()
-    turt.addturtle("mainscreentext",(0,0),(1,1,1),'black',false)
+    turt.addturtle("mainscreentext",(0,0),(1,1,1),'black',False)
 mainmenu()
