@@ -72,3 +72,7 @@ def loadtext(text,name,nar):
 def click(x,y):
     global clicked
     clicked = True
+def mainmenu():
+    bg.clear()
+    turt.addturtle("mainscreentext",(0,0),(1,1,1),'black',false)
+mainmenu()
